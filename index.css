@@ -1,0 +1,20 @@
+#backsplash{
+    background-image: url("earth.jpg");
+    min-height: 600px;
+    background-size: cover;
+    width: 100%;
+    z-index:0;
+}
+#card{
+    width: auto;
+    height:470px;
+    position: relative;
+    top: -470px;
+    z-index:1;
+    background-color: #ffffff;
+}
+#portrait{
+    height: 470px;
+    object-fit: cover;
+}
+
