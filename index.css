@@ -1,20 +1,53 @@
+a.purps{
+	color: #390037 !important;
+	padding-top:35px !important;
+	font-size: 20px !important;
+}
 #backsplash{
+	position: relative;
     background-image: url("earth.jpg");
     min-height: 600px;
     background-size: cover;
     width: 100%;
     z-index:0;
+	margin-bottom: 0px;
 }
 #card{
-    width: auto;
+
     height:470px;
     position: relative;
     top: -470px;
+
     z-index:1;
-    background-color: #ffffff;
+
 }
 #portrait{
     height: 470px;
-    object-fit: cover;
+    object-fit: contain;
+	padding: 0;
+    background-image: url("jenn.jpg");
+background-position: right;
+background-repeat: no-repeat;
 }
-
+#info{
+	height: 470px;
+	width: 470px;
+	background-color: #ffffff;
+	padding: 0px;
+	font-family: "Verdana", Geneva, sans-serif;
+	color: #390037;
+}
+#infolist{
+	position: relative;
+	top: 50%;
+	transform: translate(0%,-50%);
+}
+#contacts{
+	top:-470px;
+	height: 70px;
+	background-color: #390037;
+	width: 940px;
+	left:50%;
+	position: relative;
+	transform: translate(-50%,0%);
+}
