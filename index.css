@@ -4,7 +4,7 @@ a.purps{
 	font-size: 20px !important;
 }
 #backsplash{
-	position: relative;
+	position: static;
     background-image: url("earth.jpg");
     min-height: 600px;
     background-size: cover;
@@ -16,8 +16,7 @@ a.purps{
 
     height:470px;
     position: relative;
-    top: -470px;
-
+    top: 130px;
     z-index:1;
 
 }
@@ -43,7 +42,6 @@ background-repeat: no-repeat;
 	transform: translate(0%,-50%);
 }
 #contacts{
-	top:-470px;
 	height: 70px;
 	background-color: #390037;
 	width: 940px;
